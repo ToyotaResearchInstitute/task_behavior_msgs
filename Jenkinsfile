@@ -21,11 +21,12 @@ node {
                 stage('checkout') {
                     withEnv(["PATH+WSTOOL=${tool 'wstool'}/bin"]) {
                         sh """
+                           env | sort
                            rm -fr catkin_ws
                            mkdir catkin_ws
                            wstool init catkin_ws/src
                            """
-                        dir("catkin_ws/src/${env.JOB_BASE_NAME}") {
+                        dir("catkin_ws/src/task_behavior_msgs") {
                             checkout scm
                         }
                     }
