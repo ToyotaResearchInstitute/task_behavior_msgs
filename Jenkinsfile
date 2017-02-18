@@ -25,7 +25,7 @@ node {
                            mkdir catkin_ws
                            wstool init catkin_ws/src
                            """
-                        dir('catkin_ws/src/${env.JOB_NAME}') {
+                        dir("catkin_ws/src/$projectShortName") {
                             checkout scm
                         }
                     }
