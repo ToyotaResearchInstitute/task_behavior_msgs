@@ -7,6 +7,8 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 add_message_files(
   DIRECTORY msg
   FILES
+  NodeData.msg
+  TreeDataDump.msg
   TreeNode.msg
   TreeNodeStatus.msg
   TreeStructure.msg
