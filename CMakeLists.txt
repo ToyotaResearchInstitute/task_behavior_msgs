@@ -8,6 +8,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   NodeData.msg
+  TreeDataDump.msg
   TreeNode.msg
   TreeNodeStatus.msg
   TreeStructure.msg
