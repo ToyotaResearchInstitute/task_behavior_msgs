@@ -14,4 +14,4 @@
 Header header
 
 TreeNode[] node      
-NodeDataDump[] data      
+NodeData[] data      
