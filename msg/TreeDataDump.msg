@@ -1,4 +1,4 @@
-# Copyright 2016 Toyota Research Institute
+# Copyright 2017 Toyota Research Institute
 
 # Licensed under the Apache License, Version 2.0 (the "License"); you may not
 # use this file except in compliance with the License. You may obtain a copy
@@ -13,5 +13,5 @@
 # under the License.
 Header header
 
-TreeNode[] node
-NodeDataDump[] data
+TreeNode[] node      
+NodeDataDump[] data      
