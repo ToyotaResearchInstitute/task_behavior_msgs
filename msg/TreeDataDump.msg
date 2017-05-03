@@ -13,5 +13,5 @@
 # under the License.
 Header header
 
-TreeStructure structure      
+TreeStructure structure
 TreeStatus status
